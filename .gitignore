@@ -16,6 +16,7 @@ generated_images/
 *.jpg
 *.jpeg
 *.webp
+!image.png
 
 # Model weights and caches
 models/
@@ -35,3 +36,4 @@ huggingface/
 Thumbs.db
 .vscode/
 .idea/
+

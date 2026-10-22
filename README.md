@@ -9,6 +9,10 @@ Create images from a browser based Gradio interface, using a 4 bit NF4 pipeline 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Controls](#using-the-studio) · [Troubleshooting](#troubleshooting)
 
 </div>
+<div align="center">
+  <img src="image.png" alt="Qwen Image Studio interface showing a generated portrait" width="100%">
+  <br><em>Prompt, generation controls, and a Qwen Image 2.1 result in the Gradio studio.</em>
+</div>
 
 ---
 
@@ -138,7 +142,7 @@ imagegen-kaggle/
 ## Before publishing to GitHub
 
 1. Review the notebook outputs and clear them in Jupyter/Kaggle if you do not want to publish execution logs, prompts, or temporary Gradio URLs. The attached output contains a temporary public link; it will expire, but it is best not to keep it in a public notebook.
-2. Commit the notebook itself, not the generated `app.py`, model weights, Hugging Face cache, or generated images. The notebook recreates the app on Kaggle.
+2. Commit the notebook and README preview image. Do not commit the generated `app.py`, model weights, Hugging Face cache, or other generated images. The notebook recreates the app on Kaggle.
 3. Add a project license only after deciding how you want the notebook/code licensed. Keep the model's separate license attribution clear.
 4. In the GitHub repository settings, add a short description such as: **“Kaggle T4 text-to-image studio using Qwen Image 2.1, NF4 quantization, and Gradio.”**
 
@@ -149,3 +153,4 @@ imagegen-kaggle/
 Built as an experimental notebook workflow · Powered by Qwen Image 2.1 · Runs on Kaggle GPU
 
 </div>
+

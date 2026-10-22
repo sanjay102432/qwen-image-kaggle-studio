@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints and local outputs
+.ipynb_checkpoints/
+
+# Generated application and image outputs (created in Kaggle working storage locally)
+app.py
+generated_images/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Model weights and caches
+models/
+checkpoints/
+.cache/
+huggingface/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

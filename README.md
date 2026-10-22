@@ -123,7 +123,7 @@ The notebook installs `transformers>=5.17.0`, `accelerate`, `bitsandbytes`, `saf
 - This notebook does **not** implement prompt moderation or an output safety filter. Use it responsibly, and do not use it to create or distribute abusive, exploitative, or non-consensual imagery.
 - `share=True` exposes the Gradio app through a public, temporary URL. Anyone with the link may be able to access it while the session is active. Do not enter private or sensitive prompts, and stop the notebook when finished.
 - Model weights are downloaded from Hugging Face at runtime and are governed by the [Qwen Image 2.1 Research License](https://huggingface.co/Qwen/Qwen-Image-2.1). Review that license and the applicable Kaggle terms before use or redistribution.
-- This repository does not include a project `LICENSE` file. The model license does not automatically license this notebook or generated images; choose and add a code license only if you have the rights and want to grant one.
+- The repository includes an Apache-2.0 `LICENSE` for the project files. Qwen Image 2.1 is governed separately by the Qwen Research License linked above; the repository license does not replace or extend the model license. Review both terms before use or redistribution.
 
 ## Repository layout
 

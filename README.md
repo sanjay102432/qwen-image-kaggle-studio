@@ -8,6 +8,18 @@ Create images from a browser based Gradio interface, using a 4 bit NF4 pipeline 
 
 [Quick start](#quick-start) · [How it works](#how-it-works) · [Controls](#using-the-studio) · [Troubleshooting](#troubleshooting)
 
+<br>
+
+<a href="image-gen-qwen-qwen-image-2-1.ipynb"><img src="https://img.shields.io/badge/GET_THE_KAGGLE_NOTEBOOK-.ipynb-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Get the Kaggle notebook (.ipynb)"></a>
+&nbsp;
+<a href="https://www.kaggle.com/docs/notebooks"><img src="https://img.shields.io/badge/IMPORT-002_20_Kaggle_GPU_session-F9AB00?style=for-the-badge&logo=kaggle&logoColor=white" alt="Import to a Kaggle GPU session"></a>
+
+<br>
+
+**Import path:** *Kaggle → **Code** → **New Notebook** → **File ▾ → Import Notebook** → upload this `.ipynb` → enable GPU + Internet → Run all.*
+
+<em>The first button vends the notebook file itself; after you import it to Kaggle, you can repoint the badge to your published Kaggle code URL with a one-line edit (find it in <a href="#quick-start">Quick start</a>).</em>
+
 </div>
 <div align="center">
   <img src="image.png" alt="Qwen Image Studio interface showing a generated portrait" width="100%">
@@ -37,7 +49,7 @@ The model is loaded once per session. Subsequent generations reuse it. Requests 
 
 ## Quick start
 
-1. Open the notebook on Kaggle. You can upload this `.ipynb` file to a new Kaggle Notebook, or import it from your GitHub repository.
+1. Press the **GET THE KAGGLE NOTEBOOK** button above to download `image-gen-qwen-qwen-image-2-1.ipynb`, then import it on Kaggle (**New Notebook → File ▾ → Import Notebook**). You can also import it straight from this GitHub repository from the same menu.
 2. In **Notebook options**, enable **Internet** so the cell can install packages and download the model. Select a **GPU** accelerator. The recorded configuration used a Tesla T4.
 3. Start a fresh session and run the notebook's single code cell.
 4. Keep the cell running while the model initializes. The first run installs dependencies and downloads model files; the example T4 run took about **4.65 minutes** to load the model after dependency setup.

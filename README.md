@@ -12,7 +12,7 @@ Create images from a browser based Gradio interface, using a 4 bit NF4 pipeline 
 
 <a href="image-gen-qwen-qwen-image-2-1.ipynb"><img src="https://img.shields.io/badge/GET_THE_KAGGLE_NOTEBOOK-.ipynb-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Get the Kaggle notebook (.ipynb)"></a>
 &nbsp;
-<a href="https://www.kaggle.com/docs/notebooks"><img src="https://img.shields.io/badge/IMPORT-002_20_Kaggle_GPU_session-F9AB00?style=for-the-badge&logo=kaggle&logoColor=white" alt="Import to a Kaggle GPU session"></a>
+<a href="https://www.kaggle.com/docs/notebooks"><img src="https://img.shields.io/badge/IMPORT_TO-A_Kaggle_GPU_session-F9AB00?style=for-the-badge&logo=kaggle&logoColor=white" alt="Import to a Kaggle GPU session"></a>
 
 <br>
 
